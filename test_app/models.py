@@ -1,5 +1,8 @@
 from django.db import models
 
+
+
+
 # Create your models here.
 class Company(models.Model):
     IT = 'IT'
@@ -20,3 +23,6 @@ class Company(models.Model):
 
     def __str__(self):
         return self.name
+
+
+
